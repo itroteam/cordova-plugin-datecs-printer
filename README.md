@@ -50,7 +50,7 @@ window.DatecsPrinter.listBluetoothDevices(
       function() {
         printSomeTestText();
       },
-      function() {
+      function(error) {
         alert(JSON.stringify(error));
       }
     );
